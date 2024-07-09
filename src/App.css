@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .app{
+width: 100vw;
+height: 100vh;
+display: flex;
+ 
 }
+ 
+ .outer-box{
+  width: 85vw;
+  height: 95vh;
+/*   border: 2px solid red;
+ */  background-color: #eed6ef;
+  margin: auto auto;
+  
+ 
+}
+ .inner-box{
+    margin: auto;
+/*      border: 1px solid green;
+ */   width: 70vw;
+    height: 95vh;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+ /*  whats new */
+
+ .what-new{
+   font-weight: bold;
+/*     border: 1px solid black;
+ */   font-size: 14px;
+   color: #002ED2;
+   margin-top: 38px;
+ }
+
+
+ /* featured courses */
+
+ .featured-course{
+ display: flex;
+/*  border: 1px solid black;
+ */ justify-content: space-between;
+ margin-top: 8px;
+ }
+
+ .featured-course-para{
+   font-size: 30px;
+   font-weight: bold;
+ }
+ .featured-course .featured-course-button{
+    margin-top: 10px; 
+
+
+ }
+
+ .featured-course-button button{
+    padding: 0 5px 0 5px;
+    color: black;
+    font-weight: 500;
+    background-color: inherit;
+    border-radius: 3px;
+    font-size: 15px;
+ }
+
+
+ /*  description featured course one */
+
+ .desc-one{
+    margin-bottom: 10px;
+    margin-top: 10px;
+/*      border: 1px solid black;
+ */ }
+  .desc-one p{
+     font-size: 12px;
+     color: black;
+     
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /*  card container */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  

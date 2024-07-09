@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+/*   border: 1px solid black;
+ */  padding: 10px;
+}
+.ind-card {
+  background-color: white;
+  /*     border: 1px solid red;
+ */
+  border-radius: 4px;
+  height: 60vh;
+  width: 40vh;
+  padding: 10px;
+}
+.card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-info{
+
+}
+.card-info-subject p{
+ font-weight: bold;
+
+}
+.subject-desc{
+    font-size: 12px;
+    margin-top: 6px;
+}
+.total-subj{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 15px;
+    color: #4567e0;
+    margin-top: 6px;
+}
+.course-rating{
+    display: flex;
+    margin-top: 6px;
+    justify-content: space-between;
+}
+.course-para{
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+.rating-image img{
+    width: 60px;
+}
+
+
+/*  course feature */
+.course-features{
+    margin-top: 6px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3 ,1fr);
+    justify-content: space-between;
+}
+.ind-course-feature{
+    display: flex;
+   gap: 12px;
+}
+.course-feature-para p{
+    font-size: 12px;
+}
+ 
+/*  teacher section */
+ .teacher{
+ display: flex;
+/*  border: 1px solid green;
+ */ 
+ justify-content: space-between;
+ margin-top: 6px;
+ 
+}
+.teacher-info{
+    display: flex;
+    justify-content:flex-start ;
+    gap: 10px;
+}
+ .teacher .teacher-logo img{
+    width: 22px;
+    height: 20px;
+    margin-top: 3px;
+ }
+
+ .teacher-rating{
+
+ }
+ .teacher-rating img{
+    width: 60px;
+ }
+
+ .teacher-name{
+   
+    width: 100px;
+ }
+ 
+ .teacher-name p{
+   font-size: 14px;
+   padding-top: 3px;
+   
+ }
+ .card-container{
+    display:flex;
+ }
+
+
+ /* price section */
+
+ .price-section{
+/*      border: 1px solid black;
+ */     margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .buy-section{
+display: flex;
+gap: 30px;
+}
+.current-price p{
+    font-weight: bold;
+    font-size: 18px;
+     padding: 5px;
+}
+
+.buy-button button{
+  background-color: white;
+  color: black;
+ padding: 3px 8px 3px 8px;
+  font-size: 18px;
+  border-radius: 4px;
+
+  
+}
+.buy-button button:hover{
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cart-button{
+/*   border: 1px solid red;
+ */    width: 40px;
+    margin-right: 4px;
+
+}
+.cart-button:hover{
+    cursor: pointer;
+}
+.cart-button-logo{
+    border: 1px solid black;
+    margin-top: 0px;
+   
+}
+
+.cart-button-logo img{
+     padding-top: 3px;
+}
